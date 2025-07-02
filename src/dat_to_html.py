@@ -191,7 +191,7 @@ class ShitarabaDatParser:
             color: #666;
         }}
         .post-id {{
-            color: #0000ff;
+            color: #888;
             font-size: 11px;
         }}
         .post-content {{
