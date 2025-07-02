@@ -16,16 +16,14 @@
 ## フォルダ構成
 
 ```
-restore_shitaraba/
+kinac/
 ├── src/                    # ソースコード
 │   └── dat_to_html.py     # メイン変換スクリプト
-├── data/                   # 入力データ
-│   ├── *.dat              # したらば掲示板のdatファイル
-├── output/                 # 変換結果
-│   ├── *.html             # 生成されたHTMLファイル
-├── examples/               # サンプル
-│   └── sample_output.html # サンプル出力
-├── docs/                   # ドキュメント
+├── data/                   # 入力データ（.gitignoreで除外）
+│   └── *.dat              # したらば掲示板のdatファイル
+├── docs/                   # 変換結果・ドキュメント
+│   └── *.html             # 生成されたHTMLファイル
+├── .gitignore             # Git除外設定
 └── README.md              # このファイル
 ```
 
@@ -40,7 +38,7 @@ python3 src/dat_to_html.py data/your_file.dat
 ### 出力ファイル名を指定
 
 ```bash
-python3 src/dat_to_html.py data/your_file.dat output/custom_name.html
+python3 src/dat_to_html.py data/your_file.dat docs/custom_name.html
 ```
 
 ### 例
