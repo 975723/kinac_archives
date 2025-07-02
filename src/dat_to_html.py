@@ -197,12 +197,11 @@ class ShitarabaDatParser:
         .post-content {{
             margin-left: 20px;
             font-size: 14px;
+            word-break: break-all;
+            overflow-wrap: break-word;
         }}
         .post-content a {{
             color: #0000ff;
-        }}
-        .sage {{
-            color: #666;
         }}
         .thread-info {{
             background-color: #f0f0f0;
