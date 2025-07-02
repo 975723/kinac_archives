@@ -7,11 +7,11 @@
 
 ```
 kinac/
-├── src/                    # ソースコード
+├── src/                   # ソースコード
 │   └── dat_to_html.py     # 変換スクリプト
-├── data/                   # 入力データ（.gitignoreで除外）
+├── data/                  # 入力データ（.gitignoreで除外）
 │   └── *.dat              # したらば掲示板のdatファイル
-├── docs/                   # 変換結果・ドキュメント
+├── docs/                  # 変換結果・ドキュメント
 │   └── *.html             # 生成されたHTMLファイル
 ├── .gitignore             # Git除外設定
 └── README.md              # このファイル
